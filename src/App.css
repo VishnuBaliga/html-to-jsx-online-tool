@@ -1,0 +1,151 @@
+ 
+*{
+  box-sizing: border-box;
+}
+body,html,head{
+  margin:0;
+  padding:0;
+  background:#FAFAF4;
+  box-sizing: border-box;
+}
+header{
+  background-color: #30323D;
+  padding: 10px 20px 50px;
+  margin-bottom: 20px;
+  text-align: left; 
+  color: #fff;
+  position:relative;
+ 
+} 
+
+
+
+svg.wave .a { fill: none; }
+
+svg.wave .b { clip-path: url(#a); }
+
+svg.wave .c, svg.wave .d { fill: #FAFAF4; }
+
+svg.wave .d { opacity: 0.5; isolation: isolate; } 
+
+svg.wave { width:100%;position: absolute; bottom: -1px; left: 0; }
+
+
+textarea{
+  width: 100%;
+  font-size: 16px;
+  padding: 10px;
+  outline: none;
+  resize: vertical;
+  border: thin solid #ddd;
+  border-radius: 5px;
+} 
+pre,code{
+  text-align:left; 
+}
+pre{
+  text-align:left; 
+  border-radius: 3px;
+}
+ 
+.output-container.error{ 
+  border:2px solid #E91E63; 
+}
+h2{
+  text-align:left;
+  margin: 20px 0px;
+  color: #0b0b0b;
+  font-weight: 500;
+}
+h2 strong{
+  font-weight: bold;
+  color: #30323D;
+}
+.input-container a.sample-input{
+    position: absolute;
+  right: 0;
+  top:0;
+  padding: 2px 0;
+  min-width: 100px;
+  margin: 20px 0;
+  font-size: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-bottom: thin dashed #30323d8a;
+  color: #30323D;
+  border-radius: 0;
+} 
+.input-container a.sample-input:hover{
+  text-decoration: none;
+  color: #000;
+  border-bottom: thin solid #30323D;
+}
+.input-container{ 
+    width: 80%;
+  margin: 20px auto 0;
+  position:relative;
+
+}
+.preview-container{
+max-height: 300px;
+max-width: 300px;
+}
+.output-container{
+  /* background-color: rgba(#BFBFBF,0.8);  */
+  position:relative;
+  width: 80%;
+  max-width: 80%;
+  margin: 0 auto 50px;
+  border:2px solid transparent;
+  /* border: thin solid #ddd; */
+  border-radius: 5px;
+  padding: 10px 20px;
+
+}
+.output-container button{
+  position: absolute;
+  right: 0;
+  top:0;
+  padding: 6px 10px;
+  min-width: 100px;
+  margin: 20px;
+  font-size: 12px;
+  border-radius: 5px;
+  
+}
+button[disabled]{
+  opacity: 0.5;
+} 
+button{ 
+  padding: 10px 15px;
+  min-width: 150px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 20px auto;
+  background-color: #D8315B;
+  border: thin solid #D8315B;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+  
+
+}
+
+.checkbox-wrapper{
+
+  margin: 20px 0 ;
+}
+ 
+input[type=checkbox] + label {  
+  margin: 0 3px;
+  font-weight: bold;
+  color: #30323D;
+  cursor: pointer;
+} 
+input[type=checkbox]:checked + label {  
+  font-weight: bold;
+  color: #30323D;
+} 
