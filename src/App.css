@@ -9,11 +9,11 @@ body,html,head{
   box-sizing: border-box;
 }
 header{
-  background-color: #30323D;
+  background-color: #C0CBB7;
   padding: 10px 20px 50px;
   margin-bottom: 20px;
   text-align: left; 
-  color: #fff;
+  color: #0b0b0b;
   position:relative;
  
 } 
@@ -124,8 +124,8 @@ button{
   font-weight: bold;
   font-size: 16px;
   margin: 20px auto;
-  background-color: #D8315B;
-  border: thin solid #D8315B;
+  background-color: #E68F71;
+  border: thin solid #E68F71;
   outline: none;
   cursor: pointer;
   border-radius: 5px;

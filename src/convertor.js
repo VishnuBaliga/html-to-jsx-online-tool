@@ -115,7 +115,7 @@ export default class Convertor extends React.Component{
                     <div className="checkbox-wrapper">
                         <center>
                             <input name="createClass" id="createClass" type="checkbox" onChange={e=>this.createClass(e)} /> 
-                            <label for="createClass">Create as React Class Component</label>  
+                            <label for="createClass">Output as React Class Component</label>  
                         </center>
                     </div>
 
