@@ -4,6 +4,7 @@ function Header(){
     return(
           <header>
                 <h3>HTML to JSX Converter</h3> 
+				<p className="author-info">Developed with ❤ by <a target="_blank" href="https://vishnubaliga.com/">Vishnu Baliga</a></p>
                  <svg className="wave" height="50px" style={{"pointerEvents":"none"}} width="100%" preserveAspectRatio="none" viewBox="0 0 1920 75" xmlns="http://www.w3.org/2000/svg">
 	<defs>
 		<clipPath id="a">

@@ -15,9 +15,33 @@ header{
   text-align: left; 
   color: #0b0b0b;
   position:relative;
+
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
  
 } 
 
+
+.author-info a:hover,.author-info a:active, .author-info a:focus{
+  color: #222;
+  text-decoration: none;
+  border-bottom: 1px solid #222;
+  }
+  .author-info, .author-info a
+  {
+    font-size: 12px;
+    color: #222;
+    margin:0; 
+    transition: all 0.3s;
+  }
+  .author-info a
+  { 
+    transition: all 0.3s;
+    text-decoration: none;
+    border-bottom: 1px dotted #222;
+  }
 
 
 svg.wave .a { fill: none; }
